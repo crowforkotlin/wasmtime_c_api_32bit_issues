@@ -9,7 +9,7 @@ This document provides a guide to replicate the compilation and runtime alignmen
 * **Android NDK**: Version `28.2.13676358` is recommended.
 * **Rust**: Nightly toolchain installed.
 * **CMake & Ninja**: Required for building the C++ sample runner.
-
+* **Android Emulator(Root Required)**: You can download an emulator via Android Studio and then root it using rootAVD: https://github.com/crowforkotlin/rootAVD
 ---
 
 ## Step-by-Step Replication
