@@ -1,0 +1,3 @@
+/home/crowf/Downloads/error-result/build-runner/CMakeFiles/pulley-runner.dir
+/home/crowf/Downloads/error-result/build-runner/CMakeFiles/edit_cache.dir
+/home/crowf/Downloads/error-result/build-runner/CMakeFiles/rebuild_cache.dir

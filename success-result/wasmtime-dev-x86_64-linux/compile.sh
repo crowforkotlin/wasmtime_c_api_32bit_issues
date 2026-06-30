@@ -1,0 +1,12 @@
+./wasmtime compile ./kotlin.wasm -o ./kotlin.pwasm32 \
+  --target pulley32 \
+  -W gc=y \
+  -W function-references=y \
+  -W exceptions=y \
+  -W simd=n \
+  -W relaxed-simd=n \
+  -O static-memory-guard-size=0 \
+  -O dynamic-memory-guard-size=0 \
+  -O signals-based-traps=n \
+  -O opt-level=2 \
+  -C cranelift-debug-verifier=no

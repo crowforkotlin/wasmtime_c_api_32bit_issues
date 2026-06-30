@@ -1,0 +1,2522 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/crowf/.jenv/shims/"
+      - "/home/crowf/.cargo/bin/"
+      - "/home/crowf/.gvm/bin/"
+      - "/home/crowf/.jenv/bin/"
+      - "/home/crowf/.zvm/bin/"
+      - "/home/crowf/.zvm/self/"
+      - "/home/crowf/.local/bin/"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/"
+      - "/home/crowf/.local/share/zinit/polaris/bin/"
+      - "/home/crowf/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+    searched_directories:
+      - "/home/crowf/.jenv/shims/uname"
+      - "/home/crowf/.cargo/bin/uname"
+      - "/home/crowf/.gvm/bin/uname"
+      - "/home/crowf/.jenv/bin/uname"
+      - "/home/crowf/.zvm/bin/uname"
+      - "/home/crowf/.zvm/self/uname"
+      - "/home/crowf/.local/bin/uname"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/uname"
+      - "/home/crowf/.local/share/zinit/polaris/bin/uname"
+      - "/home/crowf/.nix-profile/bin/uname"
+      - "/nix/var/nix/profiles/default/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/sbin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.nvm/versions/node/v26.0.0/bin"
+        - "/home/crowf/.local/share/zinit/polaris/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The target system is: Android - 1 - i686
+      The host system is: Linux - 7.0.13-arch1-1 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sbin/"
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/"
+      - "/home/crowf/.jenv/shims/"
+      - "/home/crowf/.cargo/bin/"
+      - "/home/crowf/.gvm/bin/"
+      - "/home/crowf/.jenv/bin/"
+      - "/home/crowf/.zvm/bin/"
+      - "/home/crowf/.zvm/self/"
+      - "/home/crowf/.local/bin/"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/"
+      - "/home/crowf/.local/share/zinit/polaris/bin/"
+      - "/home/crowf/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/usr/lib/i686-linux-android/21/bin/"
+      - "/usr/lib/i686-linux-android/21/sbin/"
+      - "/usr/lib/i686-linux-android/21/"
+    searched_directories:
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/ninja-build"
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/ninja"
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/samu"
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sbin/ninja-build"
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sbin/ninja"
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sbin/samu"
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/ninja-build"
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/ninja"
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/samu"
+      - "/home/crowf/.jenv/shims/ninja-build"
+      - "/home/crowf/.jenv/shims/ninja"
+      - "/home/crowf/.jenv/shims/samu"
+      - "/home/crowf/.cargo/bin/ninja-build"
+      - "/home/crowf/.cargo/bin/ninja"
+      - "/home/crowf/.cargo/bin/samu"
+      - "/home/crowf/.gvm/bin/ninja-build"
+      - "/home/crowf/.gvm/bin/ninja"
+      - "/home/crowf/.gvm/bin/samu"
+      - "/home/crowf/.jenv/bin/ninja-build"
+      - "/home/crowf/.jenv/bin/ninja"
+      - "/home/crowf/.jenv/bin/samu"
+      - "/home/crowf/.zvm/bin/ninja-build"
+      - "/home/crowf/.zvm/bin/ninja"
+      - "/home/crowf/.zvm/bin/samu"
+      - "/home/crowf/.zvm/self/ninja-build"
+      - "/home/crowf/.zvm/self/ninja"
+      - "/home/crowf/.zvm/self/samu"
+      - "/home/crowf/.local/bin/ninja-build"
+      - "/home/crowf/.local/bin/ninja"
+      - "/home/crowf/.local/bin/samu"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/ninja-build"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/ninja"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/samu"
+      - "/home/crowf/.local/share/zinit/polaris/bin/ninja-build"
+      - "/home/crowf/.local/share/zinit/polaris/bin/ninja"
+      - "/home/crowf/.local/share/zinit/polaris/bin/samu"
+      - "/home/crowf/.nix-profile/bin/ninja-build"
+      - "/home/crowf/.nix-profile/bin/ninja"
+      - "/home/crowf/.nix-profile/bin/samu"
+      - "/nix/var/nix/profiles/default/bin/ninja-build"
+      - "/nix/var/nix/profiles/default/bin/ninja"
+      - "/nix/var/nix/profiles/default/bin/samu"
+      - "/usr/local/sbin/ninja-build"
+      - "/usr/local/sbin/ninja"
+      - "/usr/local/sbin/samu"
+      - "/usr/local/bin/ninja-build"
+      - "/usr/local/bin/ninja"
+      - "/usr/local/bin/samu"
+      - "/usr/sbin/ninja-build"
+    found: "/usr/sbin/ninja"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.nvm/versions/node/v26.0.0/bin"
+        - "/home/crowf/.local/share/zinit/polaris/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/i686-linux-android/21"
+      CMAKE_SYSROOT: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/crowf/Android/Sdk/ndk/28.2.13676358"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.nvm/versions/node/v26.0.0/bin"
+        - "/home/crowf/.local/share/zinit/polaris/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/i686-linux-android/21"
+      CMAKE_SYSROOT: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/crowf/Android/Sdk/ndk/28.2.13676358"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang 
+      Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-mstackrealign;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security
+      Id flags: -c;--target=i686-none-linux-android21 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is Clang, found in:
+        /home/crowf/Downloads/error-result/build-runner/CMakeFiles/4.3.4/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld.lld"
+      - "ld"
+    candidate_directories:
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/crowf/.jenv/shims/"
+      - "/home/crowf/.cargo/bin/"
+      - "/home/crowf/.gvm/bin/"
+      - "/home/crowf/.jenv/bin/"
+      - "/home/crowf/.zvm/bin/"
+      - "/home/crowf/.zvm/self/"
+      - "/home/crowf/.local/bin/"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/"
+      - "/home/crowf/.local/share/zinit/polaris/bin/"
+      - "/home/crowf/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/usr/lib/i686-linux-android/21/bin/"
+      - "/usr/lib/i686-linux-android/21/sbin/"
+      - "/usr/lib/i686-linux-android/21/"
+    found: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.nvm/versions/node/v26.0.0/bin"
+        - "/home/crowf/.local/share/zinit/polaris/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/i686-linux-android/21"
+      CMAKE_SYSROOT: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/crowf/Android/Sdk/ndk/28.2.13676358"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-nm"
+      - "nm"
+    candidate_directories:
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/crowf/.jenv/shims/"
+      - "/home/crowf/.cargo/bin/"
+      - "/home/crowf/.gvm/bin/"
+      - "/home/crowf/.jenv/bin/"
+      - "/home/crowf/.zvm/bin/"
+      - "/home/crowf/.zvm/self/"
+      - "/home/crowf/.local/bin/"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/"
+      - "/home/crowf/.local/share/zinit/polaris/bin/"
+      - "/home/crowf/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/usr/lib/i686-linux-android/21/bin/"
+      - "/usr/lib/i686-linux-android/21/sbin/"
+      - "/usr/lib/i686-linux-android/21/"
+    found: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-nm"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.nvm/versions/node/v26.0.0/bin"
+        - "/home/crowf/.local/share/zinit/polaris/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/i686-linux-android/21"
+      CMAKE_SYSROOT: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/crowf/Android/Sdk/ndk/28.2.13676358"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/crowf/.jenv/shims/"
+      - "/home/crowf/.cargo/bin/"
+      - "/home/crowf/.gvm/bin/"
+      - "/home/crowf/.jenv/bin/"
+      - "/home/crowf/.zvm/bin/"
+      - "/home/crowf/.zvm/self/"
+      - "/home/crowf/.local/bin/"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/"
+      - "/home/crowf/.local/share/zinit/polaris/bin/"
+      - "/home/crowf/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/usr/lib/i686-linux-android/21/bin/"
+      - "/usr/lib/i686-linux-android/21/sbin/"
+      - "/usr/lib/i686-linux-android/21/"
+    found: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-objdump"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.nvm/versions/node/v26.0.0/bin"
+        - "/home/crowf/.local/share/zinit/polaris/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/i686-linux-android/21"
+      CMAKE_SYSROOT: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/crowf/Android/Sdk/ndk/28.2.13676358"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/crowf/.jenv/shims/"
+      - "/home/crowf/.cargo/bin/"
+      - "/home/crowf/.gvm/bin/"
+      - "/home/crowf/.jenv/bin/"
+      - "/home/crowf/.zvm/bin/"
+      - "/home/crowf/.zvm/self/"
+      - "/home/crowf/.local/bin/"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/"
+      - "/home/crowf/.local/share/zinit/polaris/bin/"
+      - "/home/crowf/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/usr/lib/i686-linux-android/21/bin/"
+      - "/usr/lib/i686-linux-android/21/sbin/"
+      - "/usr/lib/i686-linux-android/21/"
+    found: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-objcopy"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.nvm/versions/node/v26.0.0/bin"
+        - "/home/crowf/.local/share/zinit/polaris/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/i686-linux-android/21"
+      CMAKE_SYSROOT: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/crowf/Android/Sdk/ndk/28.2.13676358"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/crowf/.jenv/shims/"
+      - "/home/crowf/.cargo/bin/"
+      - "/home/crowf/.gvm/bin/"
+      - "/home/crowf/.jenv/bin/"
+      - "/home/crowf/.zvm/bin/"
+      - "/home/crowf/.zvm/self/"
+      - "/home/crowf/.local/bin/"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/"
+      - "/home/crowf/.local/share/zinit/polaris/bin/"
+      - "/home/crowf/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/usr/lib/i686-linux-android/21/bin/"
+      - "/usr/lib/i686-linux-android/21/sbin/"
+      - "/usr/lib/i686-linux-android/21/"
+    found: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-readelf"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.nvm/versions/node/v26.0.0/bin"
+        - "/home/crowf/.local/share/zinit/polaris/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/i686-linux-android/21"
+      CMAKE_SYSROOT: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/crowf/Android/Sdk/ndk/28.2.13676358"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/crowf/.jenv/shims/"
+      - "/home/crowf/.cargo/bin/"
+      - "/home/crowf/.gvm/bin/"
+      - "/home/crowf/.jenv/bin/"
+      - "/home/crowf/.zvm/bin/"
+      - "/home/crowf/.zvm/self/"
+      - "/home/crowf/.local/bin/"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/"
+      - "/home/crowf/.local/share/zinit/polaris/bin/"
+      - "/home/crowf/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/usr/lib/i686-linux-android/21/bin/"
+      - "/usr/lib/i686-linux-android/21/sbin/"
+      - "/usr/lib/i686-linux-android/21/"
+    found: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-dlltool"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.nvm/versions/node/v26.0.0/bin"
+        - "/home/crowf/.local/share/zinit/polaris/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/i686-linux-android/21"
+      CMAKE_SYSROOT: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/crowf/Android/Sdk/ndk/28.2.13676358"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/crowf/.jenv/shims/"
+      - "/home/crowf/.cargo/bin/"
+      - "/home/crowf/.gvm/bin/"
+      - "/home/crowf/.jenv/bin/"
+      - "/home/crowf/.zvm/bin/"
+      - "/home/crowf/.zvm/self/"
+      - "/home/crowf/.local/bin/"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/"
+      - "/home/crowf/.local/share/zinit/polaris/bin/"
+      - "/home/crowf/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/usr/lib/i686-linux-android/21/bin/"
+      - "/usr/lib/i686-linux-android/21/sbin/"
+      - "/usr/lib/i686-linux-android/21/"
+    found: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-addr2line"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.nvm/versions/node/v26.0.0/bin"
+        - "/home/crowf/.local/share/zinit/polaris/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/i686-linux-android/21"
+      CMAKE_SYSROOT: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/crowf/Android/Sdk/ndk/28.2.13676358"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/crowf/.jenv/shims/"
+      - "/home/crowf/.cargo/bin/"
+      - "/home/crowf/.gvm/bin/"
+      - "/home/crowf/.jenv/bin/"
+      - "/home/crowf/.zvm/bin/"
+      - "/home/crowf/.zvm/self/"
+      - "/home/crowf/.local/bin/"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/"
+      - "/home/crowf/.local/share/zinit/polaris/bin/"
+      - "/home/crowf/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/usr/lib/i686-linux-android/21/bin/"
+      - "/usr/lib/i686-linux-android/21/sbin/"
+      - "/usr/lib/i686-linux-android/21/"
+    searched_directories:
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/tapi"
+      - "/home/crowf/.jenv/shims/tapi"
+      - "/home/crowf/.cargo/bin/tapi"
+      - "/home/crowf/.gvm/bin/tapi"
+      - "/home/crowf/.jenv/bin/tapi"
+      - "/home/crowf/.zvm/bin/tapi"
+      - "/home/crowf/.zvm/self/tapi"
+      - "/home/crowf/.local/bin/tapi"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/tapi"
+      - "/home/crowf/.local/share/zinit/polaris/bin/tapi"
+      - "/home/crowf/.nix-profile/bin/tapi"
+      - "/nix/var/nix/profiles/default/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/usr/bin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+      - "/var/lib/flatpak/exports/bin/tapi"
+      - "/usr/lib/jvm/default/bin/tapi"
+      - "/usr/bin/site_perl/tapi"
+      - "/usr/bin/vendor_perl/tapi"
+      - "/usr/bin/core_perl/tapi"
+      - "/usr/lib/rustup/bin/tapi"
+      - "/usr/lib/i686-linux-android/21/bin/tapi"
+      - "/usr/lib/i686-linux-android/21/sbin/tapi"
+      - "/usr/lib/i686-linux-android/21/tapi"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.nvm/versions/node/v26.0.0/bin"
+        - "/home/crowf/.local/share/zinit/polaris/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/i686-linux-android/21"
+      CMAKE_SYSROOT: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/crowf/Android/Sdk/ndk/28.2.13676358"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-19.0"
+      - "llvm-ar-19"
+      - "llvm-ar19"
+      - "llvm-ar"
+    candidate_directories:
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/crowf/.jenv/shims/"
+      - "/home/crowf/.cargo/bin/"
+      - "/home/crowf/.gvm/bin/"
+      - "/home/crowf/.jenv/bin/"
+      - "/home/crowf/.zvm/bin/"
+      - "/home/crowf/.zvm/self/"
+      - "/home/crowf/.local/bin/"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/"
+      - "/home/crowf/.local/share/zinit/polaris/bin/"
+      - "/home/crowf/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/usr/lib/i686-linux-android/21/bin/"
+      - "/usr/lib/i686-linux-android/21/sbin/"
+      - "/usr/lib/i686-linux-android/21/"
+    searched_directories:
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar-19.0"
+      - "/home/crowf/.jenv/shims/llvm-ar-19.0"
+      - "/home/crowf/.cargo/bin/llvm-ar-19.0"
+      - "/home/crowf/.gvm/bin/llvm-ar-19.0"
+      - "/home/crowf/.jenv/bin/llvm-ar-19.0"
+      - "/home/crowf/.zvm/bin/llvm-ar-19.0"
+      - "/home/crowf/.zvm/self/llvm-ar-19.0"
+      - "/home/crowf/.local/bin/llvm-ar-19.0"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/llvm-ar-19.0"
+      - "/home/crowf/.local/share/zinit/polaris/bin/llvm-ar-19.0"
+      - "/home/crowf/.nix-profile/bin/llvm-ar-19.0"
+      - "/nix/var/nix/profiles/default/bin/llvm-ar-19.0"
+      - "/usr/local/sbin/llvm-ar-19.0"
+      - "/usr/local/bin/llvm-ar-19.0"
+      - "/usr/sbin/llvm-ar-19.0"
+      - "/usr/bin/llvm-ar-19.0"
+      - "/sbin/llvm-ar-19.0"
+      - "/bin/llvm-ar-19.0"
+      - "/var/lib/flatpak/exports/bin/llvm-ar-19.0"
+      - "/usr/lib/jvm/default/bin/llvm-ar-19.0"
+      - "/usr/bin/site_perl/llvm-ar-19.0"
+      - "/usr/bin/vendor_perl/llvm-ar-19.0"
+      - "/usr/bin/core_perl/llvm-ar-19.0"
+      - "/usr/lib/rustup/bin/llvm-ar-19.0"
+      - "/usr/lib/i686-linux-android/21/bin/llvm-ar-19.0"
+      - "/usr/lib/i686-linux-android/21/sbin/llvm-ar-19.0"
+      - "/usr/lib/i686-linux-android/21/llvm-ar-19.0"
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar-19"
+      - "/home/crowf/.jenv/shims/llvm-ar-19"
+      - "/home/crowf/.cargo/bin/llvm-ar-19"
+      - "/home/crowf/.gvm/bin/llvm-ar-19"
+      - "/home/crowf/.jenv/bin/llvm-ar-19"
+      - "/home/crowf/.zvm/bin/llvm-ar-19"
+      - "/home/crowf/.zvm/self/llvm-ar-19"
+      - "/home/crowf/.local/bin/llvm-ar-19"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/llvm-ar-19"
+      - "/home/crowf/.local/share/zinit/polaris/bin/llvm-ar-19"
+      - "/home/crowf/.nix-profile/bin/llvm-ar-19"
+      - "/nix/var/nix/profiles/default/bin/llvm-ar-19"
+      - "/usr/local/sbin/llvm-ar-19"
+      - "/usr/local/bin/llvm-ar-19"
+      - "/usr/sbin/llvm-ar-19"
+      - "/usr/bin/llvm-ar-19"
+      - "/sbin/llvm-ar-19"
+      - "/bin/llvm-ar-19"
+      - "/var/lib/flatpak/exports/bin/llvm-ar-19"
+      - "/usr/lib/jvm/default/bin/llvm-ar-19"
+      - "/usr/bin/site_perl/llvm-ar-19"
+      - "/usr/bin/vendor_perl/llvm-ar-19"
+      - "/usr/bin/core_perl/llvm-ar-19"
+      - "/usr/lib/rustup/bin/llvm-ar-19"
+      - "/usr/lib/i686-linux-android/21/bin/llvm-ar-19"
+      - "/usr/lib/i686-linux-android/21/sbin/llvm-ar-19"
+      - "/usr/lib/i686-linux-android/21/llvm-ar-19"
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar19"
+      - "/home/crowf/.jenv/shims/llvm-ar19"
+      - "/home/crowf/.cargo/bin/llvm-ar19"
+      - "/home/crowf/.gvm/bin/llvm-ar19"
+      - "/home/crowf/.jenv/bin/llvm-ar19"
+      - "/home/crowf/.zvm/bin/llvm-ar19"
+      - "/home/crowf/.zvm/self/llvm-ar19"
+      - "/home/crowf/.local/bin/llvm-ar19"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/llvm-ar19"
+      - "/home/crowf/.local/share/zinit/polaris/bin/llvm-ar19"
+      - "/home/crowf/.nix-profile/bin/llvm-ar19"
+      - "/nix/var/nix/profiles/default/bin/llvm-ar19"
+      - "/usr/local/sbin/llvm-ar19"
+      - "/usr/local/bin/llvm-ar19"
+      - "/usr/sbin/llvm-ar19"
+      - "/usr/bin/llvm-ar19"
+      - "/sbin/llvm-ar19"
+      - "/bin/llvm-ar19"
+      - "/var/lib/flatpak/exports/bin/llvm-ar19"
+      - "/usr/lib/jvm/default/bin/llvm-ar19"
+      - "/usr/bin/site_perl/llvm-ar19"
+      - "/usr/bin/vendor_perl/llvm-ar19"
+      - "/usr/bin/core_perl/llvm-ar19"
+      - "/usr/lib/rustup/bin/llvm-ar19"
+      - "/usr/lib/i686-linux-android/21/bin/llvm-ar19"
+      - "/usr/lib/i686-linux-android/21/sbin/llvm-ar19"
+      - "/usr/lib/i686-linux-android/21/llvm-ar19"
+    found: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.nvm/versions/node/v26.0.0/bin"
+        - "/home/crowf/.local/share/zinit/polaris/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/i686-linux-android/21"
+      CMAKE_SYSROOT: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/crowf/Android/Sdk/ndk/28.2.13676358"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-19.0"
+      - "llvm-ranlib-19"
+      - "llvm-ranlib19"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/crowf/.jenv/shims/"
+      - "/home/crowf/.cargo/bin/"
+      - "/home/crowf/.gvm/bin/"
+      - "/home/crowf/.jenv/bin/"
+      - "/home/crowf/.zvm/bin/"
+      - "/home/crowf/.zvm/self/"
+      - "/home/crowf/.local/bin/"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/"
+      - "/home/crowf/.local/share/zinit/polaris/bin/"
+      - "/home/crowf/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/usr/lib/i686-linux-android/21/bin/"
+      - "/usr/lib/i686-linux-android/21/sbin/"
+      - "/usr/lib/i686-linux-android/21/"
+    searched_directories:
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib-19.0"
+      - "/home/crowf/.jenv/shims/llvm-ranlib-19.0"
+      - "/home/crowf/.cargo/bin/llvm-ranlib-19.0"
+      - "/home/crowf/.gvm/bin/llvm-ranlib-19.0"
+      - "/home/crowf/.jenv/bin/llvm-ranlib-19.0"
+      - "/home/crowf/.zvm/bin/llvm-ranlib-19.0"
+      - "/home/crowf/.zvm/self/llvm-ranlib-19.0"
+      - "/home/crowf/.local/bin/llvm-ranlib-19.0"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/llvm-ranlib-19.0"
+      - "/home/crowf/.local/share/zinit/polaris/bin/llvm-ranlib-19.0"
+      - "/home/crowf/.nix-profile/bin/llvm-ranlib-19.0"
+      - "/nix/var/nix/profiles/default/bin/llvm-ranlib-19.0"
+      - "/usr/local/sbin/llvm-ranlib-19.0"
+      - "/usr/local/bin/llvm-ranlib-19.0"
+      - "/usr/sbin/llvm-ranlib-19.0"
+      - "/usr/bin/llvm-ranlib-19.0"
+      - "/sbin/llvm-ranlib-19.0"
+      - "/bin/llvm-ranlib-19.0"
+      - "/var/lib/flatpak/exports/bin/llvm-ranlib-19.0"
+      - "/usr/lib/jvm/default/bin/llvm-ranlib-19.0"
+      - "/usr/bin/site_perl/llvm-ranlib-19.0"
+      - "/usr/bin/vendor_perl/llvm-ranlib-19.0"
+      - "/usr/bin/core_perl/llvm-ranlib-19.0"
+      - "/usr/lib/rustup/bin/llvm-ranlib-19.0"
+      - "/usr/lib/i686-linux-android/21/bin/llvm-ranlib-19.0"
+      - "/usr/lib/i686-linux-android/21/sbin/llvm-ranlib-19.0"
+      - "/usr/lib/i686-linux-android/21/llvm-ranlib-19.0"
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib-19"
+      - "/home/crowf/.jenv/shims/llvm-ranlib-19"
+      - "/home/crowf/.cargo/bin/llvm-ranlib-19"
+      - "/home/crowf/.gvm/bin/llvm-ranlib-19"
+      - "/home/crowf/.jenv/bin/llvm-ranlib-19"
+      - "/home/crowf/.zvm/bin/llvm-ranlib-19"
+      - "/home/crowf/.zvm/self/llvm-ranlib-19"
+      - "/home/crowf/.local/bin/llvm-ranlib-19"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/llvm-ranlib-19"
+      - "/home/crowf/.local/share/zinit/polaris/bin/llvm-ranlib-19"
+      - "/home/crowf/.nix-profile/bin/llvm-ranlib-19"
+      - "/nix/var/nix/profiles/default/bin/llvm-ranlib-19"
+      - "/usr/local/sbin/llvm-ranlib-19"
+      - "/usr/local/bin/llvm-ranlib-19"
+      - "/usr/sbin/llvm-ranlib-19"
+      - "/usr/bin/llvm-ranlib-19"
+      - "/sbin/llvm-ranlib-19"
+      - "/bin/llvm-ranlib-19"
+      - "/var/lib/flatpak/exports/bin/llvm-ranlib-19"
+      - "/usr/lib/jvm/default/bin/llvm-ranlib-19"
+      - "/usr/bin/site_perl/llvm-ranlib-19"
+      - "/usr/bin/vendor_perl/llvm-ranlib-19"
+      - "/usr/bin/core_perl/llvm-ranlib-19"
+      - "/usr/lib/rustup/bin/llvm-ranlib-19"
+      - "/usr/lib/i686-linux-android/21/bin/llvm-ranlib-19"
+      - "/usr/lib/i686-linux-android/21/sbin/llvm-ranlib-19"
+      - "/usr/lib/i686-linux-android/21/llvm-ranlib-19"
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib19"
+      - "/home/crowf/.jenv/shims/llvm-ranlib19"
+      - "/home/crowf/.cargo/bin/llvm-ranlib19"
+      - "/home/crowf/.gvm/bin/llvm-ranlib19"
+      - "/home/crowf/.jenv/bin/llvm-ranlib19"
+      - "/home/crowf/.zvm/bin/llvm-ranlib19"
+      - "/home/crowf/.zvm/self/llvm-ranlib19"
+      - "/home/crowf/.local/bin/llvm-ranlib19"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/llvm-ranlib19"
+      - "/home/crowf/.local/share/zinit/polaris/bin/llvm-ranlib19"
+      - "/home/crowf/.nix-profile/bin/llvm-ranlib19"
+      - "/nix/var/nix/profiles/default/bin/llvm-ranlib19"
+      - "/usr/local/sbin/llvm-ranlib19"
+      - "/usr/local/bin/llvm-ranlib19"
+      - "/usr/sbin/llvm-ranlib19"
+      - "/usr/bin/llvm-ranlib19"
+      - "/sbin/llvm-ranlib19"
+      - "/bin/llvm-ranlib19"
+      - "/var/lib/flatpak/exports/bin/llvm-ranlib19"
+      - "/usr/lib/jvm/default/bin/llvm-ranlib19"
+      - "/usr/bin/site_perl/llvm-ranlib19"
+      - "/usr/bin/vendor_perl/llvm-ranlib19"
+      - "/usr/bin/core_perl/llvm-ranlib19"
+      - "/usr/lib/rustup/bin/llvm-ranlib19"
+      - "/usr/lib/i686-linux-android/21/bin/llvm-ranlib19"
+      - "/usr/lib/i686-linux-android/21/sbin/llvm-ranlib19"
+      - "/usr/lib/i686-linux-android/21/llvm-ranlib19"
+    found: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.nvm/versions/node/v26.0.0/bin"
+        - "/home/crowf/.local/share/zinit/polaris/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/i686-linux-android/21"
+      CMAKE_SYSROOT: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/crowf/Android/Sdk/ndk/28.2.13676358"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-19.0"
+      - "clang-scan-deps-19"
+      - "clang-scan-deps19"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/crowf/.jenv/shims/"
+      - "/home/crowf/.cargo/bin/"
+      - "/home/crowf/.gvm/bin/"
+      - "/home/crowf/.jenv/bin/"
+      - "/home/crowf/.zvm/bin/"
+      - "/home/crowf/.zvm/self/"
+      - "/home/crowf/.local/bin/"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/"
+      - "/home/crowf/.local/share/zinit/polaris/bin/"
+      - "/home/crowf/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/usr/lib/i686-linux-android/21/bin/"
+      - "/usr/lib/i686-linux-android/21/sbin/"
+      - "/usr/lib/i686-linux-android/21/"
+    searched_directories:
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-scan-deps-19.0"
+      - "/home/crowf/.jenv/shims/clang-scan-deps-19.0"
+      - "/home/crowf/.cargo/bin/clang-scan-deps-19.0"
+      - "/home/crowf/.gvm/bin/clang-scan-deps-19.0"
+      - "/home/crowf/.jenv/bin/clang-scan-deps-19.0"
+      - "/home/crowf/.zvm/bin/clang-scan-deps-19.0"
+      - "/home/crowf/.zvm/self/clang-scan-deps-19.0"
+      - "/home/crowf/.local/bin/clang-scan-deps-19.0"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/clang-scan-deps-19.0"
+      - "/home/crowf/.local/share/zinit/polaris/bin/clang-scan-deps-19.0"
+      - "/home/crowf/.nix-profile/bin/clang-scan-deps-19.0"
+      - "/nix/var/nix/profiles/default/bin/clang-scan-deps-19.0"
+      - "/usr/local/sbin/clang-scan-deps-19.0"
+      - "/usr/local/bin/clang-scan-deps-19.0"
+      - "/usr/sbin/clang-scan-deps-19.0"
+      - "/usr/bin/clang-scan-deps-19.0"
+      - "/sbin/clang-scan-deps-19.0"
+      - "/bin/clang-scan-deps-19.0"
+      - "/var/lib/flatpak/exports/bin/clang-scan-deps-19.0"
+      - "/usr/lib/jvm/default/bin/clang-scan-deps-19.0"
+      - "/usr/bin/site_perl/clang-scan-deps-19.0"
+      - "/usr/bin/vendor_perl/clang-scan-deps-19.0"
+      - "/usr/bin/core_perl/clang-scan-deps-19.0"
+      - "/usr/lib/rustup/bin/clang-scan-deps-19.0"
+      - "/usr/lib/i686-linux-android/21/bin/clang-scan-deps-19.0"
+      - "/usr/lib/i686-linux-android/21/sbin/clang-scan-deps-19.0"
+      - "/usr/lib/i686-linux-android/21/clang-scan-deps-19.0"
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-scan-deps-19"
+      - "/home/crowf/.jenv/shims/clang-scan-deps-19"
+      - "/home/crowf/.cargo/bin/clang-scan-deps-19"
+      - "/home/crowf/.gvm/bin/clang-scan-deps-19"
+      - "/home/crowf/.jenv/bin/clang-scan-deps-19"
+      - "/home/crowf/.zvm/bin/clang-scan-deps-19"
+      - "/home/crowf/.zvm/self/clang-scan-deps-19"
+      - "/home/crowf/.local/bin/clang-scan-deps-19"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/clang-scan-deps-19"
+      - "/home/crowf/.local/share/zinit/polaris/bin/clang-scan-deps-19"
+      - "/home/crowf/.nix-profile/bin/clang-scan-deps-19"
+      - "/nix/var/nix/profiles/default/bin/clang-scan-deps-19"
+      - "/usr/local/sbin/clang-scan-deps-19"
+      - "/usr/local/bin/clang-scan-deps-19"
+      - "/usr/sbin/clang-scan-deps-19"
+      - "/usr/bin/clang-scan-deps-19"
+      - "/sbin/clang-scan-deps-19"
+      - "/bin/clang-scan-deps-19"
+      - "/var/lib/flatpak/exports/bin/clang-scan-deps-19"
+      - "/usr/lib/jvm/default/bin/clang-scan-deps-19"
+      - "/usr/bin/site_perl/clang-scan-deps-19"
+      - "/usr/bin/vendor_perl/clang-scan-deps-19"
+      - "/usr/bin/core_perl/clang-scan-deps-19"
+      - "/usr/lib/rustup/bin/clang-scan-deps-19"
+      - "/usr/lib/i686-linux-android/21/bin/clang-scan-deps-19"
+      - "/usr/lib/i686-linux-android/21/sbin/clang-scan-deps-19"
+      - "/usr/lib/i686-linux-android/21/clang-scan-deps-19"
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-scan-deps19"
+      - "/home/crowf/.jenv/shims/clang-scan-deps19"
+      - "/home/crowf/.cargo/bin/clang-scan-deps19"
+      - "/home/crowf/.gvm/bin/clang-scan-deps19"
+      - "/home/crowf/.jenv/bin/clang-scan-deps19"
+      - "/home/crowf/.zvm/bin/clang-scan-deps19"
+      - "/home/crowf/.zvm/self/clang-scan-deps19"
+      - "/home/crowf/.local/bin/clang-scan-deps19"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/clang-scan-deps19"
+      - "/home/crowf/.local/share/zinit/polaris/bin/clang-scan-deps19"
+      - "/home/crowf/.nix-profile/bin/clang-scan-deps19"
+      - "/nix/var/nix/profiles/default/bin/clang-scan-deps19"
+      - "/usr/local/sbin/clang-scan-deps19"
+      - "/usr/local/bin/clang-scan-deps19"
+      - "/usr/sbin/clang-scan-deps19"
+      - "/usr/bin/clang-scan-deps19"
+      - "/sbin/clang-scan-deps19"
+      - "/bin/clang-scan-deps19"
+      - "/var/lib/flatpak/exports/bin/clang-scan-deps19"
+      - "/usr/lib/jvm/default/bin/clang-scan-deps19"
+      - "/usr/bin/site_perl/clang-scan-deps19"
+      - "/usr/bin/vendor_perl/clang-scan-deps19"
+      - "/usr/bin/core_perl/clang-scan-deps19"
+      - "/usr/lib/rustup/bin/clang-scan-deps19"
+      - "/usr/lib/i686-linux-android/21/bin/clang-scan-deps19"
+      - "/usr/lib/i686-linux-android/21/sbin/clang-scan-deps19"
+      - "/usr/lib/i686-linux-android/21/clang-scan-deps19"
+    found: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-scan-deps"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.nvm/versions/node/v26.0.0/bin"
+        - "/home/crowf/.local/share/zinit/polaris/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/i686-linux-android/21"
+      CMAKE_SYSROOT: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/crowf/Android/Sdk/ndk/28.2.13676358"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.nvm/versions/node/v26.0.0/bin"
+        - "/home/crowf/.local/share/zinit/polaris/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/i686-linux-android/21"
+      CMAKE_SYSROOT: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/crowf/Android/Sdk/ndk/28.2.13676358"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ 
+      Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-mstackrealign;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security
+      Id flags: -c;--target=i686-none-linux-android21 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/crowf/Downloads/error-result/build-runner/CMakeFiles/4.3.4/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-19.0"
+      - "llvm-ar-19"
+      - "llvm-ar19"
+      - "llvm-ar"
+    candidate_directories:
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/crowf/.jenv/shims/"
+      - "/home/crowf/.cargo/bin/"
+      - "/home/crowf/.gvm/bin/"
+      - "/home/crowf/.jenv/bin/"
+      - "/home/crowf/.zvm/bin/"
+      - "/home/crowf/.zvm/self/"
+      - "/home/crowf/.local/bin/"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/"
+      - "/home/crowf/.local/share/zinit/polaris/bin/"
+      - "/home/crowf/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/usr/lib/i686-linux-android/21/bin/"
+      - "/usr/lib/i686-linux-android/21/sbin/"
+      - "/usr/lib/i686-linux-android/21/"
+    searched_directories:
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar-19.0"
+      - "/home/crowf/.jenv/shims/llvm-ar-19.0"
+      - "/home/crowf/.cargo/bin/llvm-ar-19.0"
+      - "/home/crowf/.gvm/bin/llvm-ar-19.0"
+      - "/home/crowf/.jenv/bin/llvm-ar-19.0"
+      - "/home/crowf/.zvm/bin/llvm-ar-19.0"
+      - "/home/crowf/.zvm/self/llvm-ar-19.0"
+      - "/home/crowf/.local/bin/llvm-ar-19.0"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/llvm-ar-19.0"
+      - "/home/crowf/.local/share/zinit/polaris/bin/llvm-ar-19.0"
+      - "/home/crowf/.nix-profile/bin/llvm-ar-19.0"
+      - "/nix/var/nix/profiles/default/bin/llvm-ar-19.0"
+      - "/usr/local/sbin/llvm-ar-19.0"
+      - "/usr/local/bin/llvm-ar-19.0"
+      - "/usr/sbin/llvm-ar-19.0"
+      - "/usr/bin/llvm-ar-19.0"
+      - "/sbin/llvm-ar-19.0"
+      - "/bin/llvm-ar-19.0"
+      - "/var/lib/flatpak/exports/bin/llvm-ar-19.0"
+      - "/usr/lib/jvm/default/bin/llvm-ar-19.0"
+      - "/usr/bin/site_perl/llvm-ar-19.0"
+      - "/usr/bin/vendor_perl/llvm-ar-19.0"
+      - "/usr/bin/core_perl/llvm-ar-19.0"
+      - "/usr/lib/rustup/bin/llvm-ar-19.0"
+      - "/usr/lib/i686-linux-android/21/bin/llvm-ar-19.0"
+      - "/usr/lib/i686-linux-android/21/sbin/llvm-ar-19.0"
+      - "/usr/lib/i686-linux-android/21/llvm-ar-19.0"
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar-19"
+      - "/home/crowf/.jenv/shims/llvm-ar-19"
+      - "/home/crowf/.cargo/bin/llvm-ar-19"
+      - "/home/crowf/.gvm/bin/llvm-ar-19"
+      - "/home/crowf/.jenv/bin/llvm-ar-19"
+      - "/home/crowf/.zvm/bin/llvm-ar-19"
+      - "/home/crowf/.zvm/self/llvm-ar-19"
+      - "/home/crowf/.local/bin/llvm-ar-19"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/llvm-ar-19"
+      - "/home/crowf/.local/share/zinit/polaris/bin/llvm-ar-19"
+      - "/home/crowf/.nix-profile/bin/llvm-ar-19"
+      - "/nix/var/nix/profiles/default/bin/llvm-ar-19"
+      - "/usr/local/sbin/llvm-ar-19"
+      - "/usr/local/bin/llvm-ar-19"
+      - "/usr/sbin/llvm-ar-19"
+      - "/usr/bin/llvm-ar-19"
+      - "/sbin/llvm-ar-19"
+      - "/bin/llvm-ar-19"
+      - "/var/lib/flatpak/exports/bin/llvm-ar-19"
+      - "/usr/lib/jvm/default/bin/llvm-ar-19"
+      - "/usr/bin/site_perl/llvm-ar-19"
+      - "/usr/bin/vendor_perl/llvm-ar-19"
+      - "/usr/bin/core_perl/llvm-ar-19"
+      - "/usr/lib/rustup/bin/llvm-ar-19"
+      - "/usr/lib/i686-linux-android/21/bin/llvm-ar-19"
+      - "/usr/lib/i686-linux-android/21/sbin/llvm-ar-19"
+      - "/usr/lib/i686-linux-android/21/llvm-ar-19"
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar19"
+      - "/home/crowf/.jenv/shims/llvm-ar19"
+      - "/home/crowf/.cargo/bin/llvm-ar19"
+      - "/home/crowf/.gvm/bin/llvm-ar19"
+      - "/home/crowf/.jenv/bin/llvm-ar19"
+      - "/home/crowf/.zvm/bin/llvm-ar19"
+      - "/home/crowf/.zvm/self/llvm-ar19"
+      - "/home/crowf/.local/bin/llvm-ar19"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/llvm-ar19"
+      - "/home/crowf/.local/share/zinit/polaris/bin/llvm-ar19"
+      - "/home/crowf/.nix-profile/bin/llvm-ar19"
+      - "/nix/var/nix/profiles/default/bin/llvm-ar19"
+      - "/usr/local/sbin/llvm-ar19"
+      - "/usr/local/bin/llvm-ar19"
+      - "/usr/sbin/llvm-ar19"
+      - "/usr/bin/llvm-ar19"
+      - "/sbin/llvm-ar19"
+      - "/bin/llvm-ar19"
+      - "/var/lib/flatpak/exports/bin/llvm-ar19"
+      - "/usr/lib/jvm/default/bin/llvm-ar19"
+      - "/usr/bin/site_perl/llvm-ar19"
+      - "/usr/bin/vendor_perl/llvm-ar19"
+      - "/usr/bin/core_perl/llvm-ar19"
+      - "/usr/lib/rustup/bin/llvm-ar19"
+      - "/usr/lib/i686-linux-android/21/bin/llvm-ar19"
+      - "/usr/lib/i686-linux-android/21/sbin/llvm-ar19"
+      - "/usr/lib/i686-linux-android/21/llvm-ar19"
+    found: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.nvm/versions/node/v26.0.0/bin"
+        - "/home/crowf/.local/share/zinit/polaris/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/i686-linux-android/21"
+      CMAKE_SYSROOT: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/crowf/Android/Sdk/ndk/28.2.13676358"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-19.0"
+      - "llvm-ranlib-19"
+      - "llvm-ranlib19"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/crowf/.jenv/shims/"
+      - "/home/crowf/.cargo/bin/"
+      - "/home/crowf/.gvm/bin/"
+      - "/home/crowf/.jenv/bin/"
+      - "/home/crowf/.zvm/bin/"
+      - "/home/crowf/.zvm/self/"
+      - "/home/crowf/.local/bin/"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/"
+      - "/home/crowf/.local/share/zinit/polaris/bin/"
+      - "/home/crowf/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/usr/lib/i686-linux-android/21/bin/"
+      - "/usr/lib/i686-linux-android/21/sbin/"
+      - "/usr/lib/i686-linux-android/21/"
+    searched_directories:
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib-19.0"
+      - "/home/crowf/.jenv/shims/llvm-ranlib-19.0"
+      - "/home/crowf/.cargo/bin/llvm-ranlib-19.0"
+      - "/home/crowf/.gvm/bin/llvm-ranlib-19.0"
+      - "/home/crowf/.jenv/bin/llvm-ranlib-19.0"
+      - "/home/crowf/.zvm/bin/llvm-ranlib-19.0"
+      - "/home/crowf/.zvm/self/llvm-ranlib-19.0"
+      - "/home/crowf/.local/bin/llvm-ranlib-19.0"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/llvm-ranlib-19.0"
+      - "/home/crowf/.local/share/zinit/polaris/bin/llvm-ranlib-19.0"
+      - "/home/crowf/.nix-profile/bin/llvm-ranlib-19.0"
+      - "/nix/var/nix/profiles/default/bin/llvm-ranlib-19.0"
+      - "/usr/local/sbin/llvm-ranlib-19.0"
+      - "/usr/local/bin/llvm-ranlib-19.0"
+      - "/usr/sbin/llvm-ranlib-19.0"
+      - "/usr/bin/llvm-ranlib-19.0"
+      - "/sbin/llvm-ranlib-19.0"
+      - "/bin/llvm-ranlib-19.0"
+      - "/var/lib/flatpak/exports/bin/llvm-ranlib-19.0"
+      - "/usr/lib/jvm/default/bin/llvm-ranlib-19.0"
+      - "/usr/bin/site_perl/llvm-ranlib-19.0"
+      - "/usr/bin/vendor_perl/llvm-ranlib-19.0"
+      - "/usr/bin/core_perl/llvm-ranlib-19.0"
+      - "/usr/lib/rustup/bin/llvm-ranlib-19.0"
+      - "/usr/lib/i686-linux-android/21/bin/llvm-ranlib-19.0"
+      - "/usr/lib/i686-linux-android/21/sbin/llvm-ranlib-19.0"
+      - "/usr/lib/i686-linux-android/21/llvm-ranlib-19.0"
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib-19"
+      - "/home/crowf/.jenv/shims/llvm-ranlib-19"
+      - "/home/crowf/.cargo/bin/llvm-ranlib-19"
+      - "/home/crowf/.gvm/bin/llvm-ranlib-19"
+      - "/home/crowf/.jenv/bin/llvm-ranlib-19"
+      - "/home/crowf/.zvm/bin/llvm-ranlib-19"
+      - "/home/crowf/.zvm/self/llvm-ranlib-19"
+      - "/home/crowf/.local/bin/llvm-ranlib-19"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/llvm-ranlib-19"
+      - "/home/crowf/.local/share/zinit/polaris/bin/llvm-ranlib-19"
+      - "/home/crowf/.nix-profile/bin/llvm-ranlib-19"
+      - "/nix/var/nix/profiles/default/bin/llvm-ranlib-19"
+      - "/usr/local/sbin/llvm-ranlib-19"
+      - "/usr/local/bin/llvm-ranlib-19"
+      - "/usr/sbin/llvm-ranlib-19"
+      - "/usr/bin/llvm-ranlib-19"
+      - "/sbin/llvm-ranlib-19"
+      - "/bin/llvm-ranlib-19"
+      - "/var/lib/flatpak/exports/bin/llvm-ranlib-19"
+      - "/usr/lib/jvm/default/bin/llvm-ranlib-19"
+      - "/usr/bin/site_perl/llvm-ranlib-19"
+      - "/usr/bin/vendor_perl/llvm-ranlib-19"
+      - "/usr/bin/core_perl/llvm-ranlib-19"
+      - "/usr/lib/rustup/bin/llvm-ranlib-19"
+      - "/usr/lib/i686-linux-android/21/bin/llvm-ranlib-19"
+      - "/usr/lib/i686-linux-android/21/sbin/llvm-ranlib-19"
+      - "/usr/lib/i686-linux-android/21/llvm-ranlib-19"
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib19"
+      - "/home/crowf/.jenv/shims/llvm-ranlib19"
+      - "/home/crowf/.cargo/bin/llvm-ranlib19"
+      - "/home/crowf/.gvm/bin/llvm-ranlib19"
+      - "/home/crowf/.jenv/bin/llvm-ranlib19"
+      - "/home/crowf/.zvm/bin/llvm-ranlib19"
+      - "/home/crowf/.zvm/self/llvm-ranlib19"
+      - "/home/crowf/.local/bin/llvm-ranlib19"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/llvm-ranlib19"
+      - "/home/crowf/.local/share/zinit/polaris/bin/llvm-ranlib19"
+      - "/home/crowf/.nix-profile/bin/llvm-ranlib19"
+      - "/nix/var/nix/profiles/default/bin/llvm-ranlib19"
+      - "/usr/local/sbin/llvm-ranlib19"
+      - "/usr/local/bin/llvm-ranlib19"
+      - "/usr/sbin/llvm-ranlib19"
+      - "/usr/bin/llvm-ranlib19"
+      - "/sbin/llvm-ranlib19"
+      - "/bin/llvm-ranlib19"
+      - "/var/lib/flatpak/exports/bin/llvm-ranlib19"
+      - "/usr/lib/jvm/default/bin/llvm-ranlib19"
+      - "/usr/bin/site_perl/llvm-ranlib19"
+      - "/usr/bin/vendor_perl/llvm-ranlib19"
+      - "/usr/bin/core_perl/llvm-ranlib19"
+      - "/usr/lib/rustup/bin/llvm-ranlib19"
+      - "/usr/lib/i686-linux-android/21/bin/llvm-ranlib19"
+      - "/usr/lib/i686-linux-android/21/sbin/llvm-ranlib19"
+      - "/usr/lib/i686-linux-android/21/llvm-ranlib19"
+    found: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.nvm/versions/node/v26.0.0/bin"
+        - "/home/crowf/.local/share/zinit/polaris/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/i686-linux-android/21"
+      CMAKE_SYSROOT: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/crowf/Android/Sdk/ndk/28.2.13676358"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-19.0"
+      - "clang-scan-deps-19"
+      - "clang-scan-deps19"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/crowf/.jenv/shims/"
+      - "/home/crowf/.cargo/bin/"
+      - "/home/crowf/.gvm/bin/"
+      - "/home/crowf/.jenv/bin/"
+      - "/home/crowf/.zvm/bin/"
+      - "/home/crowf/.zvm/self/"
+      - "/home/crowf/.local/bin/"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/"
+      - "/home/crowf/.local/share/zinit/polaris/bin/"
+      - "/home/crowf/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/usr/lib/i686-linux-android/21/bin/"
+      - "/usr/lib/i686-linux-android/21/sbin/"
+      - "/usr/lib/i686-linux-android/21/"
+    searched_directories:
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-scan-deps-19.0"
+      - "/home/crowf/.jenv/shims/clang-scan-deps-19.0"
+      - "/home/crowf/.cargo/bin/clang-scan-deps-19.0"
+      - "/home/crowf/.gvm/bin/clang-scan-deps-19.0"
+      - "/home/crowf/.jenv/bin/clang-scan-deps-19.0"
+      - "/home/crowf/.zvm/bin/clang-scan-deps-19.0"
+      - "/home/crowf/.zvm/self/clang-scan-deps-19.0"
+      - "/home/crowf/.local/bin/clang-scan-deps-19.0"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/clang-scan-deps-19.0"
+      - "/home/crowf/.local/share/zinit/polaris/bin/clang-scan-deps-19.0"
+      - "/home/crowf/.nix-profile/bin/clang-scan-deps-19.0"
+      - "/nix/var/nix/profiles/default/bin/clang-scan-deps-19.0"
+      - "/usr/local/sbin/clang-scan-deps-19.0"
+      - "/usr/local/bin/clang-scan-deps-19.0"
+      - "/usr/sbin/clang-scan-deps-19.0"
+      - "/usr/bin/clang-scan-deps-19.0"
+      - "/sbin/clang-scan-deps-19.0"
+      - "/bin/clang-scan-deps-19.0"
+      - "/var/lib/flatpak/exports/bin/clang-scan-deps-19.0"
+      - "/usr/lib/jvm/default/bin/clang-scan-deps-19.0"
+      - "/usr/bin/site_perl/clang-scan-deps-19.0"
+      - "/usr/bin/vendor_perl/clang-scan-deps-19.0"
+      - "/usr/bin/core_perl/clang-scan-deps-19.0"
+      - "/usr/lib/rustup/bin/clang-scan-deps-19.0"
+      - "/usr/lib/i686-linux-android/21/bin/clang-scan-deps-19.0"
+      - "/usr/lib/i686-linux-android/21/sbin/clang-scan-deps-19.0"
+      - "/usr/lib/i686-linux-android/21/clang-scan-deps-19.0"
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-scan-deps-19"
+      - "/home/crowf/.jenv/shims/clang-scan-deps-19"
+      - "/home/crowf/.cargo/bin/clang-scan-deps-19"
+      - "/home/crowf/.gvm/bin/clang-scan-deps-19"
+      - "/home/crowf/.jenv/bin/clang-scan-deps-19"
+      - "/home/crowf/.zvm/bin/clang-scan-deps-19"
+      - "/home/crowf/.zvm/self/clang-scan-deps-19"
+      - "/home/crowf/.local/bin/clang-scan-deps-19"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/clang-scan-deps-19"
+      - "/home/crowf/.local/share/zinit/polaris/bin/clang-scan-deps-19"
+      - "/home/crowf/.nix-profile/bin/clang-scan-deps-19"
+      - "/nix/var/nix/profiles/default/bin/clang-scan-deps-19"
+      - "/usr/local/sbin/clang-scan-deps-19"
+      - "/usr/local/bin/clang-scan-deps-19"
+      - "/usr/sbin/clang-scan-deps-19"
+      - "/usr/bin/clang-scan-deps-19"
+      - "/sbin/clang-scan-deps-19"
+      - "/bin/clang-scan-deps-19"
+      - "/var/lib/flatpak/exports/bin/clang-scan-deps-19"
+      - "/usr/lib/jvm/default/bin/clang-scan-deps-19"
+      - "/usr/bin/site_perl/clang-scan-deps-19"
+      - "/usr/bin/vendor_perl/clang-scan-deps-19"
+      - "/usr/bin/core_perl/clang-scan-deps-19"
+      - "/usr/lib/rustup/bin/clang-scan-deps-19"
+      - "/usr/lib/i686-linux-android/21/bin/clang-scan-deps-19"
+      - "/usr/lib/i686-linux-android/21/sbin/clang-scan-deps-19"
+      - "/usr/lib/i686-linux-android/21/clang-scan-deps-19"
+      - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-scan-deps19"
+      - "/home/crowf/.jenv/shims/clang-scan-deps19"
+      - "/home/crowf/.cargo/bin/clang-scan-deps19"
+      - "/home/crowf/.gvm/bin/clang-scan-deps19"
+      - "/home/crowf/.jenv/bin/clang-scan-deps19"
+      - "/home/crowf/.zvm/bin/clang-scan-deps19"
+      - "/home/crowf/.zvm/self/clang-scan-deps19"
+      - "/home/crowf/.local/bin/clang-scan-deps19"
+      - "/home/crowf/.nvm/versions/node/v26.0.0/bin/clang-scan-deps19"
+      - "/home/crowf/.local/share/zinit/polaris/bin/clang-scan-deps19"
+      - "/home/crowf/.nix-profile/bin/clang-scan-deps19"
+      - "/nix/var/nix/profiles/default/bin/clang-scan-deps19"
+      - "/usr/local/sbin/clang-scan-deps19"
+      - "/usr/local/bin/clang-scan-deps19"
+      - "/usr/sbin/clang-scan-deps19"
+      - "/usr/bin/clang-scan-deps19"
+      - "/sbin/clang-scan-deps19"
+      - "/bin/clang-scan-deps19"
+      - "/var/lib/flatpak/exports/bin/clang-scan-deps19"
+      - "/usr/lib/jvm/default/bin/clang-scan-deps19"
+      - "/usr/bin/site_perl/clang-scan-deps19"
+      - "/usr/bin/vendor_perl/clang-scan-deps19"
+      - "/usr/bin/core_perl/clang-scan-deps19"
+      - "/usr/lib/rustup/bin/clang-scan-deps19"
+      - "/usr/lib/i686-linux-android/21/bin/clang-scan-deps19"
+      - "/usr/lib/i686-linux-android/21/sbin/clang-scan-deps19"
+      - "/usr/lib/i686-linux-android/21/clang-scan-deps19"
+    found: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-scan-deps"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.jenv/shims"
+        - "/home/crowf/.cargo/bin"
+        - "/home/crowf/.gvm/bin"
+        - "/home/crowf/.jenv/bin"
+        - "/home/crowf/.zvm/bin"
+        - "/home/crowf/.zvm/self"
+        - "/home/crowf/.nvm/versions/node/v26.0.0/bin"
+        - "/home/crowf/.local/share/zinit/polaris/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.local/bin"
+        - "/home/crowf/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/i686-linux-android/21"
+      CMAKE_SYSROOT: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/crowf/Android/Sdk/ndk/28.2.13676358"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/crowf/Downloads/error-result/build-runner/CMakeFiles/CMakeScratch/TryCompile-s50ryo"
+      binary: "/home/crowf/Downloads/error-result/build-runner/CMakeFiles/CMakeScratch/TryCompile-s50ryo"
+    cmakeVariables:
+      ANDROID_ABI: "x86"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-scan-deps"
+      CMAKE_CXX_COMPILER_TARGET: "i686-none-linux-android21"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_COMPILER_TARGET: "i686-none-linux-android21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat "
+      CMAKE_C_FLAGS_DEBUG: "-fno-limit-debug-info "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/crowf/Downloads/error-result/build-runner/CMakeFiles/CMakeScratch/TryCompile-s50ryo'
+        
+        Run Build Command(s): /usr/sbin/ninja -v cmTC_c98bc
+        [1/2] /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android21 --sysroot=/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat   -fPIE   -v -MD -MT CMakeFiles/cmTC_c98bc.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_c98bc.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_c98bc.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Android (13624864, +pgo, +bolt, +lto, +mlgo, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+        Target: i686-none-linux-android21
+        Thread model: posix
+        InstalledDir: /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin
+         (in-process)
+         "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" -cc1 -triple i686-none-linux-android21 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu i686 -target-feature +ssse3 -tune-cpu generic -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/home/crowf/Downloads/error-result/build-runner/CMakeFiles/CMakeScratch/TryCompile-s50ryo -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/crowf/Downloads/error-result/build-runner/CMakeFiles/CMakeScratch/TryCompile-s50ryo -resource-dir /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19 -dependency-file CMakeFiles/cmTC_c98bc.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_c98bc.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include -internal-isystem /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android -internal-externc-isystem /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -ferror-limit 19 -femulated-tls -stack-protector 2 -mstackrealign -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c98bc.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 19.0.1 based upon LLVM 19.0.1 default target x86_64-unknown-linux-gnu
+        ignoring nonexistent directory "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include"
+        ignoring nonexistent directory "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include
+         /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android
+         /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+        End of search list.
+        [2/2] : && /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android21 --sysroot=/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_c98bc.dir/CMakeCCompilerABI.c.o -o cmTC_c98bc   && :
+        Android (13624864, +pgo, +bolt, +lto, +mlgo, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+        Target: i686-none-linux-android21
+        Thread model: posix
+        InstalledDir: /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin
+         "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" --sysroot=/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot -z now -z relro --hash-style=both --eh-frame-hdr -m elf_i386 -pie -dynamic-linker /system/bin/linker -o cmTC_c98bc /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o -L/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/i386 -L/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21 -L/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android -L/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_c98bc.dir/CMakeCCompilerABI.c.o /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl -lc /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include]
+          add: [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android]
+          add: [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include] ==> [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include]
+        collapse include dir [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android] ==> [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android]
+        collapse include dir [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include] ==> [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+        implicit include dirs: [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include;/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android;/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/crowf/Downloads/error-result/build-runner/CMakeFiles/CMakeScratch/TryCompile-s50ryo']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/sbin/ninja -v cmTC_c98bc]
+        ignore line: [[1/2] /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android21 --sysroot=/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat   -fPIE   -v -MD -MT CMakeFiles/cmTC_c98bc.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_c98bc.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_c98bc.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Android (13624864  +pgo  +bolt  +lto  +mlgo  based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)]
+        ignore line: [Target: i686-none-linux-android21]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" -cc1 -triple i686-none-linux-android21 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu i686 -target-feature +ssse3 -tune-cpu generic -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/home/crowf/Downloads/error-result/build-runner/CMakeFiles/CMakeScratch/TryCompile-s50ryo -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/crowf/Downloads/error-result/build-runner/CMakeFiles/CMakeScratch/TryCompile-s50ryo -resource-dir /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19 -dependency-file CMakeFiles/cmTC_c98bc.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_c98bc.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include -internal-isystem /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android -internal-externc-isystem /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -ferror-limit 19 -femulated-tls -stack-protector 2 -mstackrealign -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c98bc.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 19.0.1 based upon LLVM 19.0.1 default target x86_64-unknown-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include]
+        ignore line: [ /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android]
+        ignore line: [ /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] : && /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android21 --sysroot=/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -static-libstdc++ -Wl --build-id=sha1 -Wl --no-rosegment -Wl --no-undefined-version -Wl --fatal-warnings -Wl --no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_c98bc.dir/CMakeCCompilerABI.c.o -o cmTC_c98bc   && :]
+        ignore line: [Android (13624864  +pgo  +bolt  +lto  +mlgo  based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)]
+        ignore line: [Target: i686-none-linux-android21]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin]
+        link line: [ "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" --sysroot=/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot -z now -z relro --hash-style=both --eh-frame-hdr -m elf_i386 -pie -dynamic-linker /system/bin/linker -o cmTC_c98bc /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o -L/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/i386 -L/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21 -L/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android -L/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_c98bc.dir/CMakeCCompilerABI.c.o /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl -lc /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o]
+          arg [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld] ==> ignore
+          arg [--sysroot=/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [--hash-style=both] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_i386] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/system/bin/linker] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_c98bc] ==> ignore
+          arg [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o] ==> obj [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o]
+          arg [-L/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/i386] ==> dir [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/i386]
+          arg [-L/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21] ==> dir [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21]
+          arg [-L/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android] ==> dir [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android]
+          arg [-L/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> dir [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+          arg [--build-id=sha1] ==> ignore
+          arg [--no-rosegment] ==> ignore
+          arg [--no-undefined-version] ==> ignore
+          arg [--fatal-warnings] ==> ignore
+          arg [--no-undefined] ==> ignore
+          arg [CMakeFiles/cmTC_c98bc.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-i686-android.a] ==> lib [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-i686-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [-lc] ==> lib [c]
+          arg [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-i686-android.a] ==> lib [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-i686-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o] ==> obj [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o]
+        linker tool for 'C': /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld
+        remove lib [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-i686-android.a]
+        remove lib [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-i686-android.a]
+        collapse library dir [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/i386] ==> [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/i386]
+        collapse library dir [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21] ==> [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21]
+        collapse library dir [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android] ==> [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android]
+        collapse library dir [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+        implicit libs: [-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+        implicit objs: [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o;/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o]
+        implicit dirs: [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/i386;/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21;/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android;/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" "-v"
+      LLD 19.0.1 (compatible with GNU linkers)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/crowf/Downloads/error-result/build-runner/CMakeFiles/CMakeScratch/TryCompile-aoftmG"
+      binary: "/home/crowf/Downloads/error-result/build-runner/CMakeFiles/CMakeScratch/TryCompile-aoftmG"
+    cmakeVariables:
+      ANDROID_ABI: "x86"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-scan-deps"
+      CMAKE_CXX_COMPILER_TARGET: "i686-none-linux-android21"
+      CMAKE_CXX_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat  "
+      CMAKE_CXX_FLAGS_DEBUG: "-fno-limit-debug-info "
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_COMPILER_TARGET: "i686-none-linux-android21"
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/crowf/Downloads/error-result/build-runner/CMakeFiles/CMakeScratch/TryCompile-aoftmG'
+        
+        Run Build Command(s): /usr/sbin/ninja -v cmTC_1514e
+        [1/2] /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android21 --sysroot=/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat    -fPIE   -v -MD -MT CMakeFiles/cmTC_1514e.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_1514e.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_1514e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Android (13624864, +pgo, +bolt, +lto, +mlgo, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+        Target: i686-none-linux-android21
+        Thread model: posix
+        InstalledDir: /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin
+         (in-process)
+         "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++" -cc1 -triple i686-none-linux-android21 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu i686 -target-feature +ssse3 -tune-cpu generic -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/home/crowf/Downloads/error-result/build-runner/CMakeFiles/CMakeScratch/TryCompile-aoftmG -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/crowf/Downloads/error-result/build-runner/CMakeFiles/CMakeScratch/TryCompile-aoftmG -resource-dir /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19 -dependency-file CMakeFiles/cmTC_1514e.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_1514e.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include -internal-isystem /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android -internal-externc-isystem /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -ferror-limit 19 -femulated-tls -stack-protector 2 -mstackrealign -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_1514e.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 19.0.1 based upon LLVM 19.0.1 default target x86_64-unknown-linux-gnu
+        ignoring nonexistent directory "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include"
+        ignoring nonexistent directory "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1
+         /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include
+         /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android
+         /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+        End of search list.
+        [2/2] : && /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android21 --sysroot=/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_1514e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1514e   && :
+        Android (13624864, +pgo, +bolt, +lto, +mlgo, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+        Target: i686-none-linux-android21
+        Thread model: posix
+        InstalledDir: /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin
+         "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" --sysroot=/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot -z now -z relro --hash-style=both --eh-frame-hdr -m elf_i386 -pie -dynamic-linker /system/bin/linker -o cmTC_1514e /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o -L/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/i386 -L/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21 -L/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android -L/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_1514e.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl -lc /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1]
+          add: [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include]
+          add: [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android]
+          add: [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1] ==> [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1]
+        collapse include dir [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include] ==> [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include]
+        collapse include dir [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android] ==> [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android]
+        collapse include dir [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include] ==> [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+        implicit include dirs: [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1;/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include;/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android;/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/crowf/Downloads/error-result/build-runner/CMakeFiles/CMakeScratch/TryCompile-aoftmG']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/sbin/ninja -v cmTC_1514e]
+        ignore line: [[1/2] /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android21 --sysroot=/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat    -fPIE   -v -MD -MT CMakeFiles/cmTC_1514e.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_1514e.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_1514e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Android (13624864  +pgo  +bolt  +lto  +mlgo  based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)]
+        ignore line: [Target: i686-none-linux-android21]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++" -cc1 -triple i686-none-linux-android21 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu i686 -target-feature +ssse3 -tune-cpu generic -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/home/crowf/Downloads/error-result/build-runner/CMakeFiles/CMakeScratch/TryCompile-aoftmG -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/crowf/Downloads/error-result/build-runner/CMakeFiles/CMakeScratch/TryCompile-aoftmG -resource-dir /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19 -dependency-file CMakeFiles/cmTC_1514e.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_1514e.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include -internal-isystem /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android -internal-externc-isystem /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -ferror-limit 19 -femulated-tls -stack-protector 2 -mstackrealign -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_1514e.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 19.0.1 based upon LLVM 19.0.1 default target x86_64-unknown-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1]
+        ignore line: [ /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include]
+        ignore line: [ /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android]
+        ignore line: [ /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] : && /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android21 --sysroot=/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -static-libstdc++ -Wl --build-id=sha1 -Wl --no-rosegment -Wl --no-undefined-version -Wl --fatal-warnings -Wl --no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_1514e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1514e   && :]
+        ignore line: [Android (13624864  +pgo  +bolt  +lto  +mlgo  based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)]
+        ignore line: [Target: i686-none-linux-android21]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin]
+        link line: [ "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" --sysroot=/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot -z now -z relro --hash-style=both --eh-frame-hdr -m elf_i386 -pie -dynamic-linker /system/bin/linker -o cmTC_1514e /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o -L/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/i386 -L/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21 -L/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android -L/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_1514e.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl -lc /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o]
+          arg [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld] ==> ignore
+          arg [--sysroot=/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [--hash-style=both] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_i386] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/system/bin/linker] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_1514e] ==> ignore
+          arg [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o] ==> obj [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o]
+          arg [-L/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/i386] ==> dir [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/i386]
+          arg [-L/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21] ==> dir [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21]
+          arg [-L/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android] ==> dir [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android]
+          arg [-L/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> dir [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+          arg [--build-id=sha1] ==> ignore
+          arg [--no-rosegment] ==> ignore
+          arg [--no-undefined-version] ==> ignore
+          arg [--fatal-warnings] ==> ignore
+          arg [--no-undefined] ==> ignore
+          arg [CMakeFiles/cmTC_1514e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-Bstatic] ==> search static
+          arg [-lc++] ==> lib [c++]
+          arg [-Bdynamic] ==> search dynamic
+          arg [-lm] ==> lib [m]
+          arg [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-i686-android.a] ==> lib [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-i686-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [-lc] ==> lib [c]
+          arg [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-i686-android.a] ==> lib [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-i686-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o] ==> obj [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o]
+        linker tool for 'CXX': /home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld
+        remove lib [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-i686-android.a]
+        remove lib [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-i686-android.a]
+        collapse library dir [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/i386] ==> [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/i386]
+        collapse library dir [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21] ==> [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21]
+        collapse library dir [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android] ==> [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android]
+        collapse library dir [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+        implicit libs: [c++;m;-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+        implicit objs: [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o;/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o]
+        implicit dirs: [/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/i386;/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21;/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android;/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/home/crowf/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" "-v"
+      LLD 19.0.1 (compatible with GNU linkers)
+...
